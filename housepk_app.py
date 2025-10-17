@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/login')
 def login():
-    return "Login Page - by Dev1"
+    return "Merged Login Page - combined Dev1 & Dev2"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
